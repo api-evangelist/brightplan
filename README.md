@@ -42,5 +42,23 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-BrightPlan is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+BrightPlan is a San Jose, California based financial wellness company that sells a Total
+Financial Wellness platform to enterprise HR and benefits teams, combining a self-service
+digital financial planning application, an AI-powered financial wellness coach, and access
+to human CFP fiduciary advisors. BrightPlan LLC is an SEC-registered investment adviser,
+and the product reaches employees as an employer-sponsored benefit rather than as a
+self-serve consumer subscription.
+
+- Website: https://www.brightplan.com/
+- Employee application: https://my.brightplan.com/
+- Blog: https://www.brightplan.com/blog/
+
+## API surface
+
+**BrightPlan publishes no public API.** As of 2026-08-08 there is no developer portal, API
+reference, SDK, package-registry release, or GitHub organization. The only live API is the
+undocumented backend behind BrightPlan's own employee application at
+`my.brightplan.com/api`, which returns a structured JSON 404 for every specification path.
+BrightPlan does ship a first-party `llms.txt` at https://www.brightplan.com/llms.txt, which
+is captured verbatim in `llms/`. See the `x-coverage` block in `apis.yml` for the probed
+evidence.

@@ -1,0 +1,25 @@
+# BrightPlan
+
+> BrightPlan is an award-winning global financial wellness platform that helps enterprises give employees personalized financial guidance — improving financial wellbeing, engagement, and the impact of their benefits.
+
+BrightPlan delivers Total Financial Wellness for the enterprise: a self-service digital platform, an AI-powered coach, and access to unbiased financial planners, backed by global support. It is built for HR and benefits leaders who want to maximize the impact of their financial wellness benefit and help employees make confident financial decisions.
+
+## Solutions
+- [Financial Wellness Solutions](https://www.brightplan.com/financial-wellness-solutions/): Overview of BrightPlan's Total Financial Wellness offering for employers.
+- [Digital Platform](https://www.brightplan.com/digital-platform/): The self-service financial planning platform employees use day to day.
+- [AI Coach](https://www.brightplan.com/ai-coach/): On-demand, personalized digital financial guidance for employees.
+- [Financial Planners](https://www.brightplan.com/financial-planners/): Access to unbiased, human financial advisors.
+- [Security & Compliance](https://www.brightplan.com/security-compliance/): BrightPlan's data security and compliance posture.
+- [Attract & Retain Talent](https://www.brightplan.com/attract-retain-talent/): How financial wellness supports employee engagement and retention.
+
+## Resources
+- [Service Offerings](https://www.brightplan.com/service-offerings/): The services included with BrightPlan.
+- [2024 Wellness Barometer Survey](https://www.brightplan.com/2024-wellness-barometer-survey/): BrightPlan's annual research on employee financial wellbeing.
+- [Webinars](https://www.brightplan.com/webinars/): Financial wellness webinars for employers and HR teams.
+- [Events](https://www.brightplan.com/event/): Upcoming BrightPlan events.
+- [Awards & Third-Party Rankings](https://www.brightplan.com/awards-and-third-party-rankings/): Industry recognition and analyst rankings.
+
+## Partners
+- [Technology Partners](https://www.brightplan.com/welcome-to-brightplan-partners/technology-partners/)
+- [Referral Partners](https://www.brightplan.com/welcome-to-brightplan-partners/referral-partners/)
+- [Benefit Brokers](https://www.brightplan.com/welcome-to-brightplan-partners/benefit-brokers/)

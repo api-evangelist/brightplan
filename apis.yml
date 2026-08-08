@@ -1,16 +1,32 @@
 aid: brightplan
 name: BrightPlan
-description: 'BrightPlan is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'BrightPlan is a San Jose, California based financial wellness company
+  that sells a Total Financial Wellness platform to enterprise HR and benefits teams,
+  combining a self-service digital financial planning application, an AI-powered financial
+  wellness coach, and access to human CFP fiduciary advisors. BrightPlan LLC is an
+  SEC-registered investment adviser, and the product is delivered to employees as an
+  employer-sponsored benefit rather than as a self-serve consumer subscription. The
+  employee experience runs at my.brightplan.com and web.brightplan.com with iOS and
+  Android apps; employer value is framed around benefits engagement, retention, and
+  measurable financial wellbeing. BrightPlan markets HRIS and benefits-system integration
+  to employers but publishes no public developer program, API reference, or machine-readable
+  specification of any kind.'
+image: https://www.brightplan.com/wp-content/uploads/favicon.png
 url: https://raw.githubusercontent.com/api-evangelist/brightplan/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-08'
 modified: '2026-08-08'
 tags:
+- Financial Wellness
+- Financial Planning
+- Employee Benefits
+- Human Resources
+- Wealth Management
+- Financial Services
+- Retirement
+- Investment Advice
 - Company
 apis: []
 maintainers:
@@ -19,5 +35,44 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/brightplan-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.brightplan.com/
+- type: Blog
+  url: https://www.brightplan.com/blog/
+- type: BlogRSS
+  url: https://www.brightplan.com/blog/feed/
+- type: Support
+  url: https://www.brightplan.com/contact-us/
+- type: TermsOfService
+  url: https://www.brightplan.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.brightplan.com/privacy-notice/
+- type: Login
+  url: https://my.brightplan.com/
+- type: LLMsTxt
+  url: llms/brightplan-llms.txt
+x-enrichment:
+  date: '2026-08-08'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: BrightPlan sells an employer-sponsored financial wellness benefit, not a
+    platform — the only live API is the undocumented backend behind its own employee
+    app at my.brightplan.com/api, which answers every specification path with a structured
+    JSON 404 ("API url GET /api/openapi.json is invalid"), and no developer portal,
+    API reference, SDK, package or GitHub organization exists anywhere.
+  evidence:
+  - url: https://www.brightplan.com/developers
+    status: 404
+  - url: https://my.brightplan.com/api/openapi.json
+    status: 404
+  - url: https://www.brightplan.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.brightplan.com/llms.txt
+    status: 200
+  checked: '2026-08-08'

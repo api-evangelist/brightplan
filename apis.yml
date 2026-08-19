@@ -15,7 +15,7 @@ image: https://www.brightplan.com/wp-content/uploads/favicon.png
 url: https://raw.githubusercontent.com/api-evangelist/brightplan/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-08-08'
 modified: '2026-08-08'
 tags:

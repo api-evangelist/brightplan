@@ -11,6 +11,17 @@ description: 'BrightPlan is a San Jose, California based financial wellness comp
   measurable financial wellbeing. BrightPlan markets HRIS and benefits-system integration
   to employers but publishes no public developer program, API reference, or machine-readable
   specification of any kind.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://www.brightplan.com/wp-content/uploads/favicon.png
 url: https://raw.githubusercontent.com/api-evangelist/brightplan/refs/heads/main/apis.yml
 x-type: company

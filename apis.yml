@@ -47,7 +47,7 @@ tags:
 - Employee Benefits
 - Human Resources
 - Wealth Management
-- Financial-Services
+- Financial Services
 - Retirement
 - Investment Advice
 - Company
@@ -61,6 +61,7 @@ tags_raw:
 - Retirement
 - Investment Advice
 - Company
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
